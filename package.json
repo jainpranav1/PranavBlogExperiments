@@ -13,7 +13,10 @@
   "license": "ISC",
   "author": "Pranav Jain",
   "main": "server.js",
-  "scripts": {},
+  "scripts": {
+    "start": "web-dev-server --node-resolve",
+    "help": "web-dev-server --help"
+  },
   "devDependencies": {
     "@web/dev-server": "^0.4.6"
   },
