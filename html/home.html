@@ -9,8 +9,41 @@
       type="module"
       src="../node_modules/@shoelace-style/shoelace/dist/shoelace.js"
     ></script>
+    <title>Pranav's Ponderings</title>
+
+    <style>
+      body,
+      hgroup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+
+      h1 {
+        font-size: 50px;
+        margin: 0px;
+      }
+
+      p {
+        margin: 0px;
+      }
+
+      nav {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+    </style>
   </head>
   <body>
-    <sl-button>Hello</sl-button>
+    <hgroup>
+      <h1>Pranav's Ponderings</h1>
+      <p>A collection of Pranav Jain's thoughts and experiments</p>
+    </hgroup>
+    <nav>
+      <sl-button href="/">Thoughts</sl-button>
+      <sl-button href="/">Experiments</sl-button>
+    </nav>
   </body>
 </html>
