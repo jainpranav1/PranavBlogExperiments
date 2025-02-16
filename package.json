@@ -12,16 +12,12 @@
   },
   "license": "ISC",
   "author": "Pranav Jain",
-  "type": "commonjs",
   "main": "server.js",
-  "scripts": {
-    "nodemon": "nodemon server.js"
+  "scripts": {},
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6"
   },
   "dependencies": {
-    "express": "^4.21.2",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
+    "@shoelace-style/shoelace": "^2.20.0"
   }
 }

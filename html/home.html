@@ -1,18 +1,26 @@
-<html lang="en" class="sl-theme-dark">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/themes/dark.css"
+      href="shoelace-style/shoelace/dist/themes/light.css"
     />
     <script
       type="module"
-      src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/shoelace-autoloader.js"
+      src="shoelace-style/shoelace/dist/shoelace.js"
     ></script>
   </head>
   <body>
-    <sl-button>Click me</sl-button>
+    <script type="module">
+      import { message } from "../js/message.js";
+
+      console.log("Hello world!");
+      console.log(message);
+    </script>
+
+    hello
   </body>
 </html>
